@@ -1,0 +1,17 @@
+repository link: 
+
+#here is the basic description of the folder structure
+1. .next/: This folder contains the auto-generated build output of your Next.js application, including server-side rendered HTML, client-side JavaScript bundles, and other build artifacts. It's automatically created when you run the development server or build your app for production. This folder is usually added to the .gitignore file to exclude it from version control.
+
+2.node_modules/: This folder contains all the dependencies installed via npm. You don't need to manually create or manage this folder as npm handles it for you based on the dependencies listed in the package.json file.
+
+3.public/: This folder contains static files that should be publicly accessible. For example, images, fonts, and other assets used in your app. Files placed in this folder are served as-is without any special processing.
+
+4.components/: This folder is used to store React components that are shared and reused throughout the application. Organizing components into separate files in this folder helps maintain a clean and modular code structure.
+
+5.pages/: This is one of the most important folders in a Next.js project. Each file in this folder represents a page in your application and is automatically associated with a route. For example, pages/index.js represents the home page and is accessible at the root URL (/). Files inside the pages folder are automatically pre-rendered (by default) during the build process.
+
+6.styles/: This folder is used to store global styles (such as CSS or SCSS files) and CSS modules. Global styles can be applied to the entire application, while CSS modules allow you to define styles that are scoped to a specific component.
+
+7.package.json and package-lock.json: These files contain metadata about your project and a list of its dependencies. package-lock.json is auto-generated and ensures that npm installations are reproducible, so all developers working on the project will have the same versions of dependencies.
+
