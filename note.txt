@@ -1,5 +1,3 @@
-repository link: 
-
 #here is the basic description of the folder structure
 1. .next/: This folder contains the auto-generated build output of your Next.js application, including server-side rendered HTML, client-side JavaScript bundles, and other build artifacts. It's automatically created when you run the development server or build your app for production. This folder is usually added to the .gitignore file to exclude it from version control.
 
